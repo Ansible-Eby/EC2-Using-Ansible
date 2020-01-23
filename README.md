@@ -1,5 +1,6 @@
 # EC2-Using-Ansible
 This is an Ansible Playbook to Spin-Up an EC2 instance.
+
 Requirements:
   * python >= 2.6
   * Ansible master server with python-boto3 installed. Ansible's EC2 module uses python-boto library to call AWS API, and boto  needs AWS credentials in order to function.
